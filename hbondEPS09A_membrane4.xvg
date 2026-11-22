@@ -1,0 +1,35 @@
+# This file was created Thu Nov 27 18:26:10 2025
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2025.2 (-:
+# 
+# Executable:   /s/software/gromacs/v2025.2/bin/gmx
+# Data prefix:  /s/software/gromacs/v2025.2
+# Working dir:  /d/kt1/u/sislam18/charmm-gui-6374676464/gromacs
+# Command line:
+#   gmx hbond -f step7_10.xtc -s step7_10.tpr -n density_groups.ndx -num hbondEPS09A_membrane4.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Number of hydrogen bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Hbonds"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+      0.000          4
+    100.000          4
+    200.000          3
+    300.000          4
+    400.000          4
+    500.000          3
+    600.000          4
+    700.000          5
+    800.000          4
+    900.000          5
+   1000.000          6
